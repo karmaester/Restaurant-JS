@@ -1,23 +1,23 @@
 import _ from 'lodash';
 import './scss/styles.scss';
-import myName from './myName';
+import tabs from './components/tabs';
 import Icon from './01.jpg';
+import 'boxicons';
 
 function component() {
-    const element = document.createElement('div');
+    const element = document.querySelector('#content');
   
-    // Lodash, now imported by this script
-    element.innerHTML = myName('khris');
+    element.innerHTML = tabs();
     element.classList.add('hello');
 
       // Add the image to our existing div.
-    const myIcon = new Image();
-    myIcon.src = Icon;
+    // const myIcon = new Image();
+    // myIcon.src = Icon;
 
-    element.appendChild(myIcon);
+    // element.appendChild(myIcon);
 
   
     return element;
   }
   
-  document.body.appendChild(component());
+component();
