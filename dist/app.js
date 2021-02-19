@@ -147,8 +147,7 @@ var _06 = __webpack_require__(751);
 
 
 
-const menu = () => {
-  return `<section class="menu section bd-container" id="menu">
+const menu = () => `<section class="menu section bd-container" id="menu">
     <h2 class="section-title">Pick today's pleasure</h2>
 
     <div class="menu__container bd-grid">
@@ -201,7 +200,6 @@ const menu = () => {
     </div>
     </div>
 </section>`;
-};
 
 /* harmony default export */ const components_menu = (menu);
 
@@ -210,9 +208,7 @@ var home = __webpack_require__(724);
 ;// CONCATENATED MODULE: ./src/components/home.js
 
 
-const home_home = () => {
-
-  return `<main class="l-main">
+const home_home = () => `<main class="l-main">
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
@@ -224,12 +220,10 @@ const home_home = () => {
                 </div>
             </section>
             </main>`;
-};
 
 /* harmony default export */ const components_home = (home_home);
 ;// CONCATENATED MODULE: ./src/components/contact.js
-const contact = () => {
-  return `            
+const contact = () => `            
 <section class="contact section bd-container" id="contact">
     <div class="contact__container bd-grid">
         <div class="contact__data">
@@ -243,7 +237,6 @@ const contact = () => {
         </div>
     </div>
 </section>`;
-};
 
 /* harmony default export */ const components_contact = (contact);
 ;// CONCATENATED MODULE: ./src/components/tabs.js

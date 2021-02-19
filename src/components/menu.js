@@ -5,8 +5,7 @@ import menu04 from './img/04.png';
 import menu05 from './img/05.png';
 import menu06 from './img/06.png';
 
-const menu = () => {
-  return `<section class="menu section bd-container" id="menu">
+const menu = () => `<section class="menu section bd-container" id="menu">
     <h2 class="section-title">Pick today's pleasure</h2>
 
     <div class="menu__container bd-grid">
@@ -59,6 +58,5 @@ const menu = () => {
     </div>
     </div>
 </section>`;
-};
 
 export default menu;

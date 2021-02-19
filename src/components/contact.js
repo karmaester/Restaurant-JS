@@ -1,5 +1,4 @@
-const contact = () => {
-  return `            
+const contact = () => `            
 <section class="contact section bd-container" id="contact">
     <div class="contact__container bd-grid">
         <div class="contact__data">
@@ -13,6 +12,5 @@ const contact = () => {
         </div>
     </div>
 </section>`;
-};
 
 export default contact;

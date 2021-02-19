@@ -4,6 +4,7 @@
   "description": "This is a js practice with webpack",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --fix --ext .js,.jsx .",
     "build": "webpack --mode production",
     "watch": "webpack --watch",
     "dev": "webpack --mode development",

@@ -31,4 +31,4 @@ const tabs = () => `
 </nav>
 </header>`;
 
-export default tabs
+export default tabs;

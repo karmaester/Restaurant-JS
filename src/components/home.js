@@ -1,8 +1,6 @@
 import picture from './img/home.png';
 
-const home = () => {
-
-  return `<main class="l-main">
+const home = () => `<main class="l-main">
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
@@ -14,6 +12,5 @@ const home = () => {
                 </div>
             </section>
             </main>`;
-};
 
 export default home;
