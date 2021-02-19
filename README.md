@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-[Live version](https://rawcdn.githack.com/karmaester/Restaurant-JS/51c1e19a46213a490e55f831ad50c6091eff0b98/dist/index.html)
+[Live version](https://karmaester.github.io/Restaurant-JS/)
 
 ## :hammer: Built With
 
