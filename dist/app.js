@@ -17170,11 +17170,59 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ 445:
+/***/ 510:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "ca7aedde40bbead360fa.jpg";
+module.exports = __webpack_require__.p + "f2aabcc4c289cd71b7e4.png";
+
+/***/ }),
+
+/***/ 691:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "0fceba3503779c3c2c8e.png";
+
+/***/ }),
+
+/***/ 761:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "4270f3d65f9a558a1553.png";
+
+/***/ }),
+
+/***/ 653:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "4bd74813929220bb3ed2.png";
+
+/***/ }),
+
+/***/ 157:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "0ac4b5b9b87df4f0e11b.png";
+
+/***/ }),
+
+/***/ 751:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "d1e7aa2b629e97f7615c.png";
+
+/***/ }),
+
+/***/ 724:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "55509add868e3e382944.png";
 
 /***/ })
 
@@ -17254,21 +17302,123 @@ module.exports = __webpack_require__.p + "ca7aedde40bbead360fa.jpg";
 
 // EXTERNAL MODULE: ./node_modules/lodash/lodash.js
 var lodash = __webpack_require__(486);
+// EXTERNAL MODULE: ./src/components/img/01.png
+var _01 = __webpack_require__(510);
+// EXTERNAL MODULE: ./src/components/img/02.png
+var _02 = __webpack_require__(691);
+// EXTERNAL MODULE: ./src/components/img/03.png
+var _03 = __webpack_require__(761);
+// EXTERNAL MODULE: ./src/components/img/04.png
+var _04 = __webpack_require__(653);
+// EXTERNAL MODULE: ./src/components/img/05.png
+var _05 = __webpack_require__(157);
+// EXTERNAL MODULE: ./src/components/img/06.png
+var _06 = __webpack_require__(751);
 ;// CONCATENATED MODULE: ./src/components/menu.js
+
+
+
+
+
+
+
 const menu = () => {
-    return `This is a menu`;
+    return `<section class="menu section bd-container" id="menu">
+    <h2 class="section-title">Pick today's pleasure</h2>
+
+    <div class="menu__container bd-grid">
+        <div class="menu__content">
+            <img src="${_01}" alt="" class="menu__img">
+            <h3 class="menu__name">Mix salad</h3>
+            <span class="menu__detail">Healthy and tasty</span>
+            <span class="menu__preci">$12.00</span>
+            <a href="#" class="button menu__button"><i class="fas fa-cart-plus"></i></a>
+        </div>
+
+        <div class="menu__content">
+            <img src="${_02}" alt="" class="menu__img">
+            <h3 class="menu__name">Salty waffle</h3>
+            <span class="menu__detail">Delicious as hell</span>
+            <span class="menu__preci">$14.00</span>
+            <a href="#" class="button menu__button"><i class='fas fa-cart-plus'></i></a>
+        </div>
+        
+        <div class="menu__content">
+            <img src="${_03}" alt="" class="menu__img">
+            <h3 class="menu__name">Cheese rolls</h3>
+            <span class="menu__detail">You cant have just one</span>
+            <span class="menu__preci">$9.50</span>
+            <a href="#" class="button menu__button"><i class='fas fa-cart-plus'></i></a>
+        </div>
+
+        <div class="menu__content">
+        <img src="${_04}" alt="" class="menu__img">
+        <h3 class="menu__name">Venezuelan tequeños</h3>
+        <span class="menu__detail">Something to never forget</span>
+        <span class="menu__preci">$12.00</span>
+        <a href="#" class="button menu__button"><i class='fas fa-cart-plus'></i></a>
+    </div>
+
+    <div class="menu__content">
+        <img src="${_05}" alt="" class="menu__img">
+        <h3 class="menu__name">Cheese bread</h3>
+        <span class="menu__detail">So addictive it should be illegal</span>
+        <span class="menu__preci">$12.00</span>
+        <a href="#" class="button menu__button"><i class='fas fa-cart-plus'></i></a>
+    </div>
+    
+    <div class="menu__content">
+        <img src="${_06}" alt="" class="menu__img">
+        <h3 class="menu__name">Peruvian ceviche</h3>
+        <span class="menu__detail">All you've been waiting for</span>
+        <span class="menu__preci">$17.50</span>
+        <a href="#" class="button menu__button"><i class='fas fa-cart-plus'></i></a>
+    </div>
+    </div>
+</section>`;
 }
 
 /* harmony default export */ const components_menu = (menu);
+
+// EXTERNAL MODULE: ./src/components/img/home.png
+var home = __webpack_require__(724);
 ;// CONCATENATED MODULE: ./src/components/home.js
-const home = () => {
-    return `This is a home`;
+
+
+
+const home_home = () => {
+
+    return `<main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Porn food</h1>
+                        <h2 class="home__subtitle">made with love for <br> your delight</h2>
+                    </div>
+                    
+                    <img src="${home}" alt="home image" class="home__img">
+                </div>
+            </section>
+            </main>`;
 }
 
-/* harmony default export */ const components_home = (home);
+/* harmony default export */ const components_home = (home_home);
 ;// CONCATENATED MODULE: ./src/components/contact.js
 const contact = () => {
-    return `This is a contact`;
+    return `            
+<section class="contact section bd-container" id="contact">
+    <div class="contact__container bd-grid">
+        <div class="contact__data">
+            <span class="section-subtitle contact__initial">Talk to us</span>
+            <h2 class="section-title contact__initial">Contact</h2>
+            <p class="contact__description">You can reserve or order for delivery</p>
+        </div>
+
+        <div class="contact__button">
+            <a href="#" class="button">Contact us now</a>
+        </div>
+    </div>
+</section>`;
 }
 
 /* harmony default export */ const components_contact = (contact);
@@ -17279,13 +17429,13 @@ const contact = () => {
 
 const tabs = () => `
 <header class="l-header" id="header">
-<nav class="nav bd-container">
+<nav class="nav">
 <div class="tabsy">
 <input type="radio" id="tab1" name="tab" checked>
 <label class="tabButton" for="tab1">HOME</label>
 <div class="tab">
     <div class="content">
-    ${components_home()}
+        ${components_home()}
     </div>
 </div>
 <input type="radio" id="tab2" name="tab" checked>
@@ -17299,7 +17449,7 @@ const tabs = () => `
 <label class="tabButton" for="tab3">CONTACT</label>
 <div class="tab">
     <div class="content">
-    ${components_contact()}
+        ${components_contact()}
     </div>
 </div>
 </div>
@@ -17307,12 +17457,9 @@ const tabs = () => `
 </header>`;
 
 /* harmony default export */ const components_tabs = (tabs);
-// EXTERNAL MODULE: ./src/01.jpg
-var _01 = __webpack_require__(445);
 // EXTERNAL MODULE: ./node_modules/boxicons/dist/boxicons.js
 var boxicons = __webpack_require__(264);
 ;// CONCATENATED MODULE: ./src/index.js
-
 
 
 
@@ -17322,15 +17469,6 @@ function component() {
     const element = document.querySelector('#content');
   
     element.innerHTML = components_tabs();
-    element.classList.add('hello');
-
-      // Add the image to our existing div.
-    // const myIcon = new Image();
-    // myIcon.src = Icon;
-
-    // element.appendChild(myIcon);
-
-  
     return element;
   }
   

@@ -13,6 +13,10 @@
     transform:translateY(10px)}to{opacity:1;
     -webkit-transform:translateY(0);
     transform:translateY(0)}}
+
+.tab {
+    margin: auto;
+}
     
 .tabsy>button{
     width:100%;
@@ -35,6 +39,10 @@
     -webkit-transition:all 250ms ease-in-out;
     transition:all 250ms ease-in-out;
     padding: 0.5rem;
+}
+
+.tabButton:hover {
+    background-color: var(--first-color-alt);
 }
     
 .tabsy>input{

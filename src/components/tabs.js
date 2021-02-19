@@ -4,13 +4,13 @@ import contact from './contact';
 
 const tabs = () => `
 <header class="l-header" id="header">
-<nav class="nav bd-container">
+<nav class="nav">
 <div class="tabsy">
 <input type="radio" id="tab1" name="tab" checked>
 <label class="tabButton" for="tab1">HOME</label>
 <div class="tab">
     <div class="content">
-    ${home()}
+        ${home()}
     </div>
 </div>
 <input type="radio" id="tab2" name="tab" checked>
@@ -24,7 +24,7 @@ const tabs = () => `
 <label class="tabButton" for="tab3">CONTACT</label>
 <div class="tab">
     <div class="content">
-    ${contact()}
+        ${contact()}
     </div>
 </div>
 </div>

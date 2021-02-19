@@ -1,7 +1,11 @@
 @import './base/reset';
-@import './components/header';
 @import './components/config';
+@import './components/home';
 @import './components/tabsy';
+@import './components/menu';
+@import './components/media';
+@import './components/contact';
+@import './layout/layout';
 
 /*========== CLASS CSS ==========*/
 .section{
