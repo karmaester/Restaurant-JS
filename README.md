@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Open the console
-- Download or git clone https://github.com/karmaester/Books-Books
+- Download or git clone git@github.com:karmaester/Restaurant-JS.git
 - cd Books-Books
 
 Install npm:
@@ -32,7 +32,11 @@ Install npm:
   npm install
 ```
 
-- Open index.html file in browser
+Run npm:
+
+```
+  npm run watch
+```
 
 ### Github Actions
 
