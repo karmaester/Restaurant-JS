@@ -1,64 +1,75 @@
-# webpackTemplate
-This is a template for webpack settings
+# Restaurant Porn Food
 
-## :hammer: Built with
+- Restaurant app buildt with javascript, webpack & sass. Totally responsive using grid & Tabsy template.
 
-- webpack
+![screenshot](src/components/img/screenshot1.png)
+![screenshot](src/components/img/screenshot2.png)
 
-## :hammer: Content
+## Live Demo
 
-1. Sass-loader.
-2. HtmlWebpackPlugin.
-3. MiniCssExtractPlugin.
-4. CssMinimizerPlugin
+[Live version](https://karmaester.github.io/Restaurant-JS/)
 
+## :hammer: Built With
+
+- Javascript
+- HTML
+- Sass
+- Webpack
 
 ## :construction_worker: Getting Started
 
-To get a local copy up and running follow these simple steps:
+To get a local copy up and running follow these simple example steps.
 
-1. Go to the [repository page](https://github.com/kcotrinam/Portfolio/).
-2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <link>`.
+### Setup
 
-## :construction_worker: Pre-requisites?
+- Open the console
+- Download or git clone git@github.com:karmaester/Restaurant-JS.git
+- cd Books-Books
 
-1. Install node-js
+Install npm:
 
-## :construction_worker: How to use it?
+```
+  npm install
+```
 
-1. Click on `Use this template`.
-2. Create your repository
-3. Clone your new repository: `git clone <you_repository_link`.
-4. Move to your local repository: `cd <Your_repository_name></Your_repository_name>`.
-5. run `npm install`
+Run npm:
+
+```
+  npm run watch
+```
+
+### Github Actions
+
+To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+
+1. On your recent repo, enable the GitHub Actions in the Actions tab.
+2. Create the `feature/branch` and push.
+3. Open a PR from the `feature/branch` when your work is done.
 
 ## :bust_in_silhouette: Author
 
-👤 **Kenvin Cotrina**
+👤 **Khristian Rojas**
 
-- GitHub: [kcotrinam](https://github.com/kcotrinam) 
-- Twitter: [@kcotrinam_dev](https://twitter.com/kcotrinam_dev)
-- LinkedIn: [KevinCotrina](https://www.linkedin.com/in/kevincotrina/ )
+- Github: [@githubhandle](https://github.com/karmaester)
+- Twitter: [@twitterhandle](https://twitter.com/karmaendlich)
+- Linkedin: [linkedin](https://www.linkedin.com/in/khristian-rojas/)
 
-## 🤝 :raised_hand: :raised_hand: Contributions
+## 🤝 :raised_hand: :raised_hand: Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kcotrinam/webpackTemplate/issues).
+Feel free to check the [issues page](https://github.com/karmaester/Restaurant-JS/issues).
 
 ## :muscle: Show your support
 
 Give a ⭐️ if you like this project!
 
-## :grey_exclamation: Acknowledgment
+## :grey_exclamation: Acknowledgments
 
-- [Webpack](https://webpack.js.org/)
-- [Sass-loader](https://github.com/webpack-contrib/sass-loader)
-- [Html-Webpack-plguin](https://github.com/jantimon/html-webpack-plugin)
-- [Mini-Css-Extract-Plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
-- [Css-Minimizer-Webpack-Plugin](https://github.com/webpack-contrib/css-minimizer-webpack-plugin)
+- Microverse
+- Stand up Team
+- bedimcode
 
- ## 📝 License
+## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
