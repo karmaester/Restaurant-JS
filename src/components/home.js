@@ -1,9 +1,8 @@
 import picture from './img/home.png';
-import menu01 from './img/01.png';
 
 const home = () => {
 
-    return `<main class="l-main">
+  return `<main class="l-main">
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
@@ -15,6 +14,6 @@ const home = () => {
                 </div>
             </section>
             </main>`;
-}
+};
 
 export default home;
