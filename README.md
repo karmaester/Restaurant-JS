@@ -1,6 +1,6 @@
 # Restaurant Porn Food
 
-- Restaurant app buildt with javascript, webpack & sass. Totally responsive using grid & Tabsy template.
+- Restaurant app built with JavaScript, Webpack & Sass. Totally responsive using grid & Tabsy template.
 
 ![screenshot](src/components/img/screenshot1.png)
 ![screenshot](src/components/img/screenshot2.png)
@@ -11,7 +11,7 @@
 
 ## :hammer: Built With
 
-- Javascript
+- JavaScript
 - HTML
 - Sass
 - Webpack
